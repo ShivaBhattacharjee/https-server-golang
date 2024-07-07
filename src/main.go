@@ -68,13 +68,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	fs := http.FileServer(http.Dir("./static"))
-	//  caching headers for static files
-	fs = http.StripPrefix("/static/", http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.Header().Set("Cache-Control", "public, max-age=86400") // Cache for 1 day
-		fs.ServeHTTP(w, r)
-	}))
-
-	http.Handle("/static/", fs)
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
 	http.HandleFunc("/hello", helloHandler)
 

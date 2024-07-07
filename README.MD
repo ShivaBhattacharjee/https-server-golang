@@ -15,11 +15,9 @@
   A secure HTTPS server written in Go with HTTP/2 support.
   <br/>
   <br/>
-  <a href="http://your-demo-url.com/">View Demo</a>
+  <a href="https://github.com/ShivaBhattacharjee/https-server-golang/issues">Report Bug</a>
   .
-  <a href="https://github.com/ShivaBhattacharjee/YourProjectName/issues">Report Bug</a>
-  .
-  <a href="https://github.com/ShivaBhattacharjee/YourProjectName/issues">Request Feature</a>
+  <a href="https://github.com/ShivaBhattacharjee/https-server-golang/issues">Request Feature</a>
 </p>
 
 ## Table Of Contents
@@ -89,4 +87,4 @@ Contributions are what make the open-source community such an amazing place to l
 - Open a Pull Request
 
 ## License
-Distributed under the [Apache License 2.0](). See LICENSE for more information.
+Distributed under the [Apache License 2.0](https://github.com/ShivaBhattacharjee/https-server-golang/blob/main/LICENSE). See LICENSE for more information.
